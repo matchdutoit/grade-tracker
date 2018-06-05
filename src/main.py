@@ -9,10 +9,10 @@ grades = client.tracker.grades
 
 # for _ in range(3):
 #    name = input('student name:')
- #   klass = input('student class:')
-  #  grade = float(input('grade:'))
-   # d = {'name':name, 'klass':klass, 'grade':grade}
-    #grades.insert_one(d)
+#    klass = input('student class:')
+#    grade = float(input('grade:'))
+#    d = {'name':name, 'klass':klass, 'grade':grade}
+#    grades.insert_one(d)
 
 total = 0
 count = grades.find().count()
